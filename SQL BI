@@ -1,0 +1,30 @@
+Just wrapped up a hands-on Data Analytics project from scratch—all the way from messy SQL data to interactive Power BI dashboards!
+Project Highlights:
+I created, merged, and cleaned two large tables (Sales Orders & Customer Info) using SQL Server—dealing with nulls, typos, inconsistent formats, duplicate records, and all the real-world data headaches.
+All cleaning and transformation steps were powered by SQL scripts. I’m sharing the exact code I used in the post for anyone who’s struggling with dirty data!
+Power BI Results & Insights:
+Here’s what I learned from each visual:
+Scatter Plot—Sum of Quantity by Product and TotalSales
+Key Insight: Product-wise sales volumes and revenues cluster distinctly. Earphone and Laptop dominate the upper ranges, indicating they are core, high-performing products.
+Treemap—Sum of UnitPrice by Product
+Key Insight: Earphone leads total sales value, followed by Laptop. Clear signal for where revenue opportunities and pricing focus lie.
+Bar—Sum of TotalSales by Region
+Key Insight: "Unknown" regions have the highest sales—a sign to improve data entry practices. Among known regions, North and South outperform East and West, guiding market allocation.
+Line—Sum of TotalSales by Month
+Key Insight: Seasonal peaks in July, October, and November show sales cycles. Planning for these spikes can optimize promotions and inventory.
+Donut—Sum of TotalSales by Country
+Key Insight: The US is the largest market, closely followed by Canada and India. Regional targeting will drive future growth.
+Horizontal Bar—Sum of TotalSales by Product
+Key Insight: Earphone is the top-selling product, trailed by Laptop and Phone—helping refine product strategy and stock prioritization.
+Map—Sum of TotalSales by Country
+Key Insight: Sales are concentrated in North America, with meaningful presence in India—helpful for expansion analysis.
+SQL Data Cleaning:
+I posted all key SQL queries I used to clean and prep the data, including:
+Deduplication
+Handling NULLs and missing info
+Standardizing text case
+Date conversions
+Fixing categorical typos
+If you’re facing messy SQL tables, feel free to reach out or check out the shared scripts!
+Takeaway:
+Going hands-on with dirty data and full-stack reporting taught me why careful cleaning unlocks powerful insights. Every chart is only as reliable as the SQL work behind it!
